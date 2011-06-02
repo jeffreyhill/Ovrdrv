@@ -1,0 +1,16 @@
+div#inset {
+	margin-top:10px;
+	width:600px !important;
+}
+div#detail {
+	margin-top:10px;
+	width:440px !important;
+}
+div#form_inner {
+	margin:55px 0px 0px 0px;
+	padding-left:30px;
+	padding-right:25px;
+}
+input#email {
+	width:250px !important;
+}

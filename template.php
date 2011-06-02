@@ -5,9 +5,10 @@ defined('OVRDRV') or die('Access denied');
                       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <title>Sign up with Clickfil</title>
-<style type="text/css" media="all">
-  @import url(style.css);
-</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="ie7.css" />
+<![endif]-->
 <!--[if IE 6]>
 	<link rel="stylesheet" type="text/css" href="ie6.css" />
 <![endif]-->
