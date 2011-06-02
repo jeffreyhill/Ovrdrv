@@ -45,7 +45,7 @@ class View {
         require_once(dirname(__FILE__).DS.'tmpl'.DS.$tmpl.'.php');
         self::$contents = ob_get_clean();
 		
-		$headers = "Content-Type: text/html" charset=iso-8859-1\n".$headers;
+		$headers = "Content-Type: text/html; charset=iso-8859-1\n".$headers;
 		$subject= "Clickfil Inquiry";
 		
 		@mail('***',$subject,self::$contents,$headers);
