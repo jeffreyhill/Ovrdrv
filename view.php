@@ -47,7 +47,7 @@ class View {
 		$headers = "Content-Type: text/html; charset=iso-8859-1\n".$headers;
 		$subject= "Clickfil Inquiry";
 		
-		@mail('jeffrey.r.hill@gmail.com',$subject,self::$contents,$headers);
+		@mail('jeffrey.r.hill@gmail.com, aabrahams@overdriveinteractive.com',$subject,self::$contents,$headers);
 		return true;
 	}
 }
