@@ -1,0 +1,171 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin:0;
+	background-color:#FFF;
+	color:#575a5d;
+}
+
+div#message {
+	width:947px;
+	margin:auto;
+	background-color:#0065A2;
+	color:#FFF;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+	padding:5px 0px;
+}
+
+div#dialog {
+	width:947px;
+	height:705px;
+	background: url(img/bg.jpg) left bottom no-repeat #FFF;
+	border:1px solid #EFEFEF;
+	margin:auto;
+}
+
+div#logo {
+	width:100%;
+	height:75px;
+	background: url(img/logo.jpg) left top no-repeat;
+	border-bottom:1px solid #abacae;
+}
+
+div#content {
+	position:relative;
+	width:550px;
+	height:600px;
+	letter-spacing:-0.6px;
+}
+
+div#header {
+	font-size:44px;
+	margin-left:68px;
+	margin-top:15px;
+}
+
+div#inset {
+	position:absolute;
+	top:130px;
+	margin-left:20px;
+	margin-right:-20px;
+	font-size:26px;
+}
+
+div#inset2 {
+	margin-left:220px;
+	margin-top:18px;
+}
+
+div#detail {
+	position:absolute;
+	top:350px;
+	margin-left:68px;
+	margin-right:40px;
+	font-size:22px;
+	line-height:34px;
+	letter-spacing:-0.3px;
+}
+
+div#form {
+	position:absolute;
+	left:920px;
+	top:0;
+	width:375px;
+	height:675px;
+	background:url(img/bg_form.png) left top no-repeat;
+	z-index:1;
+}
+
+form#form_email {
+	margin:0px 20px;
+}
+
+div#form_inner {
+	position:absolute;
+	text-align:center;
+	margin:50px 25px 0px 30px;
+}
+
+div#form_header {
+	font-size:42px;
+	border-bottom:1px solid #DDDEDE;
+	letter-spacing:-0.6px;
+	padding-bottom:5px;
+}
+
+div#form_subheader {
+	font-size:22px;
+	letter-spacing:-0.3px;
+	margin:8px 40px;
+}
+
+div#form_prompt {
+	text-align:left;
+	font-size:12px;
+	display:table-row;
+}
+
+div#footer {
+	position:absolute;
+	top:560px;
+	font-size:11px;
+	margin-left:68px;
+}
+
+div#form_inset {
+	background:url(img/inset.png) left top no-repeat;
+	width:300px;
+	height:90px;
+	margin:auto;
+}
+
+div#form_inset_top {
+	padding-top:16px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:18px;
+	letter-spacing:-0.5px;
+}
+
+div#form_inset_bottom {
+	padding-top:15px;
+}
+
+.blue {
+	color:#0065a2;
+}
+
+.boldblue {
+	font-weight:bold;
+	color:#0065a2;
+}
+
+sup {
+	font-size:14px;
+}
+#footer sup {
+	font-size:8px;
+}
+#form_footer {
+	font-size:12px;
+}
+input#email {
+	width:100%;
+}
+input#submit {
+	margin:10px 0px 0px;
+}
+input#checkbox {
+    padding:0;
+    margin:0;
+    *overflow: hidden;
+}
+label {
+  	display:table-cell;
+  	vertical-align:middle;
+  	padding-left:15px;
+}
